@@ -1,15 +1,29 @@
-header {
+body {
+    padding-top: 80px;
+}
+
+.navbar-brand {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-style: bold;
     padding: 0.5rem;
-    border-color: black;
+    /* border-color: black;
     border-bottom: 2px;
-    border-style: solid;
+    border-style: solid; */
    
 }
 
 .copy {
     font-size: 14pt;
+    padding: 20px;
+}
+
+footer{
+    font-size: 12pt;
+    padding: 15px;
+    border-top: solid;
+    border-color: rgb(56, 56, 56);
+    border-width: 2px;
 }
 
 @media (min-width: 768px) and  (max-width: 991.98px) {
