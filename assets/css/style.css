@@ -3,11 +3,12 @@ body {
 }
 
 .navbar {
-    box-shadow: black 1.5px 1.5px 25px;
-
+    box-shadow: black 1.5px 1.5px 7px;
+    
 }
 .navbar-brand {
     text-align: center;
+
     font-size: 1.7rem;
     font-style: bold;
     padding: 0.5rem;
@@ -16,12 +17,30 @@ body {
     border-style: solid; */
 }
 
+/* .locationImageFrame {
+    border: 2px solid black;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+
+.locationImage {
+    height: 25vh;
+    max-width: 80vw;
+
+    border: 2px solid black;
+    border-radius: 3px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .location {
     font-size: 1.5rem;
     text-align: center;
     padding: 8px;
     background-color: blanchedalmond;
-    box-shadow: black 0.75px 0.75px 50px;
+    box-shadow: black 0.75px 0.75px 7px;
 }
 
 .copy {
