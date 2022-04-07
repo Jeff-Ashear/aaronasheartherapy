@@ -40,12 +40,13 @@ body {
     text-align: center;
     padding: 8px;
     /* background-color: blanchedalmond; */
-    background-image: url(../images/textures/mochaGrunge.png);
+    /* background-image: url(../images/textures/mochaGrunge.png); */
     box-shadow: black 0.75px 0.75px 7px;
 }
 
 #aboutBG {
-    background-image: url(../images/textures/gettyimages-922876524-2048x2048.jpg);
+    /* background-image: url(../images/textures/gettyimages-922876524-2048x2048.jpg); */
+    /* background-color: rgb(38, 38, 125); */
 }
 
 .copy {
