@@ -62,6 +62,14 @@ body {
     padding: 20px;
 }
 
+.map {
+    width: 650; 
+    height: 450;
+            /* frameborder="0" 
+            style="border:0"  */
+    /* border:2px solid rgb(56, 56, 56); */
+}
+
 footer{
     font-size: 12pt;
     padding: 15px;
