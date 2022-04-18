@@ -57,7 +57,7 @@ body {
     /* background-color: rgb(38, 38, 125); */
 }
 .contentBox {
-    margin: 100px;
+    margin: 20px;
 }
 
 .copy {
@@ -65,9 +65,12 @@ body {
     padding: 20px;
 }
 .headshot {
-    max-width: 450px;
+    max-width: 350px;
     height: auto;
     margin: 20px;
+    border: 2px solid grey;
+    border-radius: 2px;
+    box-shadow: 2px 2px 20px;
 }
 
 .map {
@@ -90,6 +93,12 @@ footer{
     header {
         font-size: 4rem;      
     }
+    .copy {
+        margin: 50px;
+    }
+    .headshot {
+        max-width: 400px;
+    }
     .map {
         width: 650;
         height: 400;
@@ -98,6 +107,12 @@ footer{
 @media (min-width: 992px) {
     header {
         font-size: 4rem;      
+    }
+    .headshot {
+        max-width: 400px;
+    }
+    .copy {
+        margin: 150px;
     }
     .map {
         width: 950;
