@@ -56,18 +56,26 @@ body {
     /* background-image: url(../images/textures/gettyimages-922876524-2048x2048.jpg); */
     /* background-color: rgb(38, 38, 125); */
 }
+.contentBox {
+    margin: 100px;
+}
 
 .copy {
     font-size: 14pt;
     padding: 20px;
 }
+.headshot {
+    max-width: 450px;
+    height: auto;
+    margin: 20px;
+}
 
 .map {
-    width: 650; 
-    height: 450;
+    width: 250; 
+    height: 250;
             /* frameborder="0" 
             style="border:0"  */
-    /* border:2px solid rgb(56, 56, 56); */
+    /* border:2px solid rgb(56, 56, 56)  */
 }
 
 footer{
