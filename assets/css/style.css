@@ -81,6 +81,10 @@ body {
     /* border:2px solid rgb(56, 56, 56)  */
 }
 
+.card {
+    width: 80%;
+}
+
 footer{
     font-size: 12pt;
     padding: 15px;
@@ -112,7 +116,8 @@ footer{
         max-width: 400px;
     }
     .copy {
-        margin: 150px;
+        margin-left: 150px;
+        margin-right: 150px;
     }
     .map {
         width: 950;
