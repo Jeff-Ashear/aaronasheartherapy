@@ -23,6 +23,11 @@ body {
     border-radius: 15px;   
 }
 
+.minHR {
+    size: 2px;
+    width: 65%;
+}
+
 .locationImage {
     height: 25vh;
     max-width: 80vw;
@@ -64,6 +69,10 @@ body {
     padding: 20px;
 }
 
+.headings {
+    padding: 20px;
+}
+
 .headshot {
     max-width: 350px;
     height: auto;
@@ -80,6 +89,10 @@ body {
     border: 3px solid #343a40;
     border-radius: 5px;
     box-shadow: 2px 2px 5px;
+}
+
+#resourcesIMG {
+    max-height: 40vh;
 }
 
 .map {
