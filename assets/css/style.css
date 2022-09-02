@@ -117,6 +117,12 @@ footer{
     background-color: #343a40;
 }
 
+@media (max-width: 370px) {
+    .navbar-brand {
+        font-size: 22px;
+    }
+}
+
 @media (min-width: 768px) and  (max-width: 991.98px) {
     header {
         font-size: 4rem;      
