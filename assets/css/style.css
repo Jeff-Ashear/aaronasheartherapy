@@ -56,10 +56,10 @@ body {
     margin-bottom: 1.6em;
 } */
 
-#aboutBG {
-    /* background-image: url(../images/textures/gettyimages-922876524-2048x2048.jpg); */
-    /* background-color: rgb(38, 38, 125); */
-}
+/* #aboutBG {
+    background-image: url(../images/textures/gettyimages-922876524-2048x2048.jpg);
+    background-color: rgb(38, 38, 125);
+} */
 .contentBox {
     margin: 20px;
 }
@@ -125,7 +125,7 @@ footer{
 
 @media (min-width: 282px) and (max-width: 370px) {
     .navbar-brand {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 
@@ -157,10 +157,10 @@ footer{
     .headshot {
         max-width: 400px;
     }
-    .copy {
-        /* margin-left: 150px;
-        margin-right: 150px; */
-    }
+    /* .copy {
+        margin-left: 150px;
+        margin-right: 150px;
+    } */
     .map {
         width: 950;
         height: 600;
