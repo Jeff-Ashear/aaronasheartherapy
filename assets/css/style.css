@@ -18,6 +18,10 @@ body {
     border-style: solid; */
 }
 
+.headingsIndex {
+    text-align: center;
+}
+
 .hoverLink:hover {
     border: inset #343a4047 5px;
     border-radius: 15px;   
