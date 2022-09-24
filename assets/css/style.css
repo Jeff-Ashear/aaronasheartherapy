@@ -27,6 +27,8 @@ body {
     border-radius: 15px;   
 }
 
+
+
 .minHR {
     size: 2px;
     width: 65%;
@@ -87,6 +89,7 @@ body {
     border: 4px solid #343a40;
     border-radius: 5px;
     box-shadow: 2px 2px 20px;
+    float: right;
 }
 
 .cntrptImg {
@@ -128,19 +131,37 @@ footer{
     .navbar-brand {
         font-size: 16px;
     }
+    .headshot {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
 }
 
 @media (min-width: 282px) and (max-width: 370px) {
     .navbar-brand {
         font-size: 20px;
     }
+    .headshot {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
 }
 
-/* @media (max-width: 380px) {
-    img {
-        max-width: 300px;
+@media (min-width: 371px) and (max-width: 767px){
+    .headshot {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
-} */
+}
 
 @media (min-width: 768px) and  (max-width: 991.98px) {
     header {
