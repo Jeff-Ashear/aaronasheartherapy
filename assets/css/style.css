@@ -104,6 +104,9 @@ body {
 #resourcesIMG {
     max-height: 40vh;
 }
+#contactImage {
+    max-height: 50vh;
+}
 
 .map {
     width: 250; 
