@@ -33,8 +33,9 @@ body {
 }
 
 .locationImage {
-    height: 25vh;
-    max-width: 80vw;
+    /* attempting to style photos with bootstrap instead and so height and width below are commented out. */
+    /* height: 25vh;
+    max-width: 80vw; */
 
     border: 2px solid black;
     border-radius: 3px;
