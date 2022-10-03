@@ -1,6 +1,6 @@
 body {
     padding-top: 80px;
-    /* background-color: #FCF8E8; */
+    background-image: url(../images/textures/paper1.jpg);
 }
 
 .navbar {
@@ -27,7 +27,15 @@ body {
     border-radius: 15px;   
 }
 
-
+/* the horoRule class is an attempt to prevent the <hr> from colliding with the floated img in index.html */
+.horoRule {
+    border-top: solid #343a40;
+    height: 3px;
+    width: 65%;
+    outline: 0px none;
+    margin-right: 1px;
+    overflow: hidden; 
+}
 
 .minHR {
     size: 2px;
@@ -88,7 +96,7 @@ body {
     margin: 20px;
     border: 4px solid #343a40;
     border-radius: 5px;
-    box-shadow: 2px 2px 20px;
+    /* box-shadow: 2px 2px 20px; */
     float: right;
 }
 
@@ -98,7 +106,7 @@ body {
     margin: 20px;
     border: 3px solid #343a40;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px;
+    /* box-shadow: 2px 2px 5px; */
 }
 
 #resourcesIMG {
